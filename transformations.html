@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CWC | Landing page</title>
+    <title>CWC | Transformations</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <div class="navbar">
         <div class="container flex">
             <h1 class="logo">Cwc Coaching.</h1>
@@ -23,39 +24,44 @@
         </div>
     </div>
 
-    <section class="showcase">
+
+    <!-- Head -->
+    <section class="transformations-head bg-primary py-3">
         <div class="container grid">
-            <div class="showcase-text">
-                <h1>TEAM CWC Online coaching</h1>
-                <p>I help busy GUYS and GIRLS transform their lives by transforming their physiques! WITHOUT crash diets.</p>
-                <a href="transformations.html" class="btn btn-outline">Transformations</a>
+            <div>
+                <h1 class="xl">Transformations</h1>
+                <p class="lead">
+                    Here are all the transformations of Team CWC
+                </p>
             </div>
-
-            <div class="showcase-form card">
-                <h2>Get in contact</h2>
-                <form action="https://formsubmit.co/boswellbenn@hotmail.com" method="POST">
-                    <div class="form-control">
-                        <input type="text" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" name="Instagram" placeholder="Instagram" required>
-                    </div>
-                    <div class="form-control">
-                        <input type="email" name="email" placeholder="Email" required>
-                    </div>
-                    <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-            </div>
+            <img src="cwcbg.png" alt="CwC Logo">
         </div>
     </section>
+    
 
-    <section>
-        <div class="p-section">
-            <h2>If you want more information fill out the contact card and I'll get back to you ASAP</h2>
-        </div>
+    <!-- Main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-2">People</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="Harry.html">Harry</a></li>
+                        <li><a href="Matthew.html">Matthew</a></li>
+                        <li><a href="#">Joe</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>To the left you see a list of names. Pressing these will show the transformation of the individual</p>
+                <img src="bg.jpg" alt="Picture of Connor">
+                </div>
     </section>
 
-    <footer class="footer">
+
+     <!-- Footer -->
+    <footer class="footer bg-dark py-5">
         <div class="container grid grid-3">
             <div>
                 <h1>Cwc Coaching
@@ -74,6 +80,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
